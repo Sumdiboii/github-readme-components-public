@@ -1,7 +1,3 @@
-![Sumedh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sumdiboii&count_private=true&show_icons=true&theme=radical&text_color=780ea4&icon_color=780ea4)
-
-
-
 <p align="center">
   
   ![Hello there ! (1)](https://github.com/user-attachments/assets/b50ee559-d676-46a1-8ff5-469c09977c95)
@@ -29,6 +25,13 @@
 
 <br>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Sumdiboii&show_icons=true&count_private=true&theme=radical&text_color=780ea4&icon_color=780ea4" alt="Sumdiboii's GitHub Stats" /> &nbsp;&nbsp;&nbsp;
+  
+</p>
+
+<br>
+
 <!-- TITLE with Animated Typing Effect -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=780ea4&center=true&vCenter=true&width=500&lines=Polishing+Ideas+into+Code.;Every+line+a+step+closer+to+perfection.;Turning+complexity+into+clarity.;Let+the+code+speak+for+itself." alt="Typing SVG" />
@@ -39,7 +42,6 @@
 </p>
 
 <br>
-
 
 <p align="center">
   <a href="https://leetcode.com/sumedhiscodinglol/">
@@ -62,7 +64,13 @@
   <a href="https://wa.me/919922391450">
     <img src="https://img.shields.io/badge/-WhatsApp-780ea4?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
+
+   <img src="https://komarev.com/ghpvc/?username=Sumdiboii&style=for-the-badge&color=780ea4" alt="Profile Views" />
+   
 </p>
+
+
+
 
 
 
