@@ -1,3 +1,7 @@
+![Sumedh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sumdiboii&count_private=true&show_icons=true&theme=radical&text_color=780ea4&icon_color=780ea4)
+
+
+
 <p align="center">
   
   ![Hello there ! (1)](https://github.com/user-attachments/assets/b50ee559-d676-46a1-8ff5-469c09977c95)
