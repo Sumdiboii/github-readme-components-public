@@ -52,7 +52,6 @@
   <img src="https://img.shields.io/badge/-Gmail-780ea4?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
 
-
   <a href="https://twitter.com/@SAP89506300">
     <img src="https://img.shields.io/badge/-Twitter-780ea4?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
