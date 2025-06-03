@@ -2,26 +2,35 @@
 
 <p align="center">
   
-  ![Hello there ! (1)](https://github.com/user-attachments/assets/b50ee559-d676-46a1-8ff5-469c09977c95)
-
-
+  <img src="read-me-images/Hello there ! (1).png" alt="Hello There 1" />
+ 
 </p>
 
 <p align="center">
 
-![final-scroller-border-ezgif com-optimize](https://github.com/user-attachments/assets/ca13495e-a6d7-4c63-bfbf-3cbf1efce7d5)
-
-![aboutme](https://github.com/user-attachments/assets/e4cd3354-3594-44f6-9845-643245decdf1)
-
-  ![Copy of Hello there ! (2)](https://github.com/user-attachments/assets/3abdcb90-58ad-4093-ad35-3c697ceba455)
-
-  ![Some of my work (1)](https://github.com/user-attachments/assets/ada7e11f-fc4d-4405-aa21-bac22b3c3462)
-
-  ![Copy of Your paragraph text (1)](https://github.com/user-attachments/assets/dd2b035f-1896-430d-b0f8-4cc50a05b754)
+<p align="center">
   
-  ![Your paragraph text (15)](https://github.com/user-attachments/assets/5d825b17-ad65-4f66-b573-0ebf20705b5e)
-
-  ![Copy of Some of my work](https://github.com/user-attachments/assets/f8925142-9f6b-4a64-a7c2-b2e8774616ce)
+  <img src="read-me-images/final-scroller-border-ezgif.com-optimize.gif" alt="Final Scroller Border GIF" />
+  
+  <img src="read-me-images/aboutme.png" alt="About Me Section" />
+  
+  <img src="read-me-images/Copy of Hello there ! (2).png" alt="Hello There 2 Copy" />
+  
+  <img src="read-me-images/Some of my work (1).png" alt="Some of My Work 1" />
+  
+  <img src="read-me-images/Copy of Your paragraph text (1).png" alt="Your Paragraph Text 1 Copy" />
+  
+  <img src="read-me-images/Your paragraph text (15).png" alt="Your Paragraph Text 15" />
+  
+  <img src="read-me-images/Copy of Your paragraph text (3).png" alt="Your Paragraph Text 3 Copy" />
+  
+  <img src="read-me-images/Copy of Copy of Copy of Your paragraph text.png" alt="Your Paragraph Text Copy Copy Copy" />
+  
+  <img src="read-me-images/Copy of Copy of Your paragraph text.png" alt="Your Paragraph Text Copy Copy" />
+  
+  <img src="read-me-images/Copy of Some of my work.png" alt="Some of My Work Copy" />
+  
+</p>
 
 </p>
 
