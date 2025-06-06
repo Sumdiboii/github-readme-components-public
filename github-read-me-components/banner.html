@@ -1,0 +1,148 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>3D Carousel Banner</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #181818;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .banner-container {
+      width: 1200px;
+      height: 300px;
+      perspective: 1200px;
+      overflow: hidden;
+      
+      border: 1.5px solid white;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      background: #0a174e url('assets/typewriter-banner-assets/bg.png') center center / 100% 100% no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .carousel {
+      width: 100%;
+      height: 260px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+    }
+    .carousel-track {
+      display: flex;
+      align-items: center;
+      transition: none;
+      will-change: transform;
+    }
+    .carousel img {
+      position: relative;
+      left: unset;
+      top: unset;
+      margin: 0 48px; /* Increased distance between cards */
+      width: 460px;    /* Increased card size */
+      height: auto;
+      max-height: 260px;
+      object-fit: contain;
+      background: #2c0235;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(44,2,53,0.25), 0 2px 16px #0004;
+      border: 4px solid #fff3;
+      backface-visibility: hidden;
+      transform: perspective(600px);
+      transition: box-shadow 0.3s, transform 0.7s cubic-bezier(0.77,0,0.18,1);
+    }
+    .carousel img.active {
+      --img-tilt: 0deg;
+      --img-scale: 1.1;
+      z-index: 2;
+      box-shadow: 0 12px 32px #0007, 0 2px 16px #0004;
+    }
+    .carousel img.left, .carousel img.right {
+      --img-tilt: 12deg;
+      --img-scale: 0.95;
+      z-index: 1;
+    }
+    .carousel img.left { --img-tilt: 18deg; }
+    .carousel img.right { --img-tilt: -18deg; }
+    .banner-title {
+      position: absolute;
+      top: 24px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-size: 2.5rem;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 8px #000a;
+      z-index: 2;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner-container">
+    <div class="banner-title"></div>
+    <div class="carousel">
+      <div class="carousel-track">
+        <img src="assets/typewriter-banner-assets/pic11.png" alt="Mock 1">
+        <img src="assets/typewriter-banner-assets/pic2.png" alt="Mock 2">
+        <img src="assets/typewriter-banner-assets/pic7.png" alt="Mock 3">
+        <img src="assets/typewriter-banner-assets/pic4.png" alt="Mock 4">
+        <img src="assets/typewriter-banner-assets/pic5.png" alt="Mock 5">
+        <img src="assets/typewriter-banner-assets/pic3.png" alt="Mock 6">
+        <img src="assets/typewriter-banner-assets/pic9.png" alt="Mock 7">
+        <img src="assets/typewriter-banner-assets/pic10.png" alt="Mock 8">
+        <img src="assets/typewriter-banner-assets/pic1.png" alt="Mock 9">
+        <img src="assets/typewriter-banner-assets/pic5.png" alt="Mock 10">
+        <img src="assets/typewriter-banner-assets/pic8.png" alt="Mock 11">
+      </div>
+    </div>
+  </div>
+  <script>
+const track = document.querySelector('.carousel-track');
+const images = Array.from(track.children);
+const cardWidth = 400 + 96; // width + margin*2 (48px each side)
+let animationId;
+
+function cloneForInfiniteScroll() {
+  // Remove any previous clones
+  images.forEach(img => img.classList.remove('clone'));
+  // Clone all images and append to the end
+  images.forEach(img => {
+    const clone = img.cloneNode(true);
+    clone.classList.add('clone');
+    track.appendChild(clone);
+  });
+}
+
+function startInfiniteScroll() {
+  let pos = 0;
+  function step() {
+    pos -= 4; // px per frame
+    if (Math.abs(pos) >= cardWidth * images.length) {
+      pos = 0;
+    }
+    track.style.transform = `translateX(${pos}px)`;
+    animationId = requestAnimationFrame(step);
+  }
+  animationId = requestAnimationFrame(step);
+}
+
+function stopInfiniteScroll() {
+  if (animationId) cancelAnimationFrame(animationId);
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  cloneForInfiniteScroll();
+  startInfiniteScroll();
+});
+  </script>
+</body>
+</html>

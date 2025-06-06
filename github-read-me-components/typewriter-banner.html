@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Typewriter Banner</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #181818;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .typewriter-banner {
+      width: 1200px;
+      height: 200px;
+      background: #0a174e url('assets/typewriter-banner-assets/5137843.jpg') center center / 100% auto no-repeat;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .typewriter-text {
+      color: #fff;
+      font-size: 3rem;
+      font-family: 'Fira Mono', 'Consolas', monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #fff;
+      width: 0;
+      animation: typing 5s steps(40, end) infinite, blink-caret 0.7s step-end infinite;
+      animation-delay: 0s, 0s;
+      text-shadow:
+        0 2px 8px #000a,
+        0 4px 16px #0006,
+        2px 2px 0 #1a237e,
+        4px 4px 12px #0008;
+    }
+    @keyframes typing {
+      0% { width: 0; }
+      80% { width: 40ch; }
+      90% { width: 40ch; }
+      100% { width: 0; }
+    }
+    @keyframes blink-caret {
+      from, to { border-color: transparent; }
+      50% { border-color: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <div class="typewriter-banner">
+    <div class="typewriter-text">Ah, a curious soul finds their way here!</div>
+  </div>
+</body>
+</html>
