@@ -22,7 +22,7 @@
   
   <img src="read-me-images/Your paragraph text (15).png" alt="Your Paragraph Text 15" />
 
-  <img src="read-me-images/cloudcannon-banner.png" alt="CloudCannon Banner" />
+  <img src="read-me-images/Copy of Copy of Your paragraph text (1).png" alt="CloudCannon Banner" />
   
   <img src="read-me-images/Copy of Your paragraph text (3).png" alt="Your Paragraph Text 3 Copy" />
   
